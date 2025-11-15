@@ -170,7 +170,7 @@ int main() {
     int n = sizeof(keys) / sizeof(keys[0]);
 
     printf("B-Tree Insertion Operation\n");
-    printf("--------------------------\n");
+    printf("\n");
 
     for (int i = 0; i < n; i++) {
         printf("\nInserting key: %d\n", keys[i]);
